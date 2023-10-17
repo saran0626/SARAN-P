@@ -1,0 +1,25 @@
+ELECTRICITY PRICE PREDICTION
+PHASE 3:DEVELOPMENT PART-1
+INTRODUCTION:
+              Electricity price forecasting (EPF) is a branch of energy forecasting which focuses on predicting the spot and forward prices in wholesale electricity markets. Over the last 15 years electricity price forecasts have become a fundamental input to energy companies' decision-making mechanisms at the corporate level.Extreme price volatility, which can be up to two orders of magnitude higher than that of any other commodity or financial asset, has forced market participants to hedge not only volume but also price risk.
+ 
+The price of electricity depends on many factors. Predicting the price of electricity helps many businesses understand how much electricity they have to pay each year. The Electricity Price Prediction task is based on a case study where you need to predict the daily price of electricity based on the daily consumption of heavy machinery used by businesses. So if you want to learn how to predict the price of electricity, then this article is for you.
+ 
+The longer-term effects of the pandemic are likely to vary significantly by fuel and technology. In the STEPS, India's gas supply (production plus trade) in 2030 is only slightly below the levels projected in WEO 2019, but oil supply is down by 5%, and coal is down by one-quarter. The pandemic takes more than 500 TWh off electricity generation in 2030 in the STEPS, compared with pre?crisis projections, with the brunt of the reduction being borne by coal-fired generation.
+ 
+An electric generator is a device that converts a form of energy into electricity. There are many different types of electricity generators. Most of world electricity generation is from generators that are based on scientist Michael Faraday's discovery in 1831 that moving a magnet inside a coil of wire makes (induces) an electric current to flow in the wire. He made the first electricity generator called a Faraday disk, which operates on this relationship between magnetism and electricity and which led to the design of the electromagnetic generators that we use today.
+CODING:1
+import seaborn as sns
+import matplotlib.pyplot as plt
+correlations = data.corr(method='pearson')
+plt.figure(figsize=(16, 12))
+sns.heatmap(correlations, cmap="coolwarm", annot=True)
+plt.show()
+OUTPUT:
+ 
+CODING:2
+ax = plot_series(df=df_energy, column='total load actual', ylabel='Total Load (MWh)',
+            title='Actual Total Load (First 2 weeks - Original)', end=24*7*2)
+plt.show()
+OUTPUT:
+ 
